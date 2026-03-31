@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="icon" href="logo nohyoghi.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog | Nohyoghi Botanical Teas</title>
+    
+    <!-- SEO & Hreflang -->
+    <meta name="description" content="Jelajahi koleksi premium Nohyoghi Botanical Teas. Varian Hijau, Biru, dan Marun.">
+    <link rel="alternate" hreflang="en" href="catalog.html" />
+    <link rel="alternate" hreflang="id" href="id-catalog.html" />
+    <link rel="alternate" hreflang="de" href="de-catalog.html" />
+    <link rel="canonical" href="id-catalog.html" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* Catalog Specific Styles */
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('nohyoghi2.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--color-white);
+            overflow-x: hidden;
+        }
+        .catalog-header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: transparent;
+            overflow: hidden;
+        }
+        .catalog-header h1 {
+            font-size: 5.5rem;
+            font-family: var(--font-heading);
+            text-transform: uppercase;
+            margin: 0;
+            line-height: 1.1;
+        }
+        .catalog-header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .products {
+            background: transparent;
+            padding-bottom: var(--spacing-xl);
+        }
+        .product-card {
+            background: rgba(26, 31, 36, 0.7) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(198, 162, 90, 0.3) !important;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        footer {
+            background-color: #0B0D0F !important;
+            position: relative;
+            z-index: 10;
+        }
+        @media (max-width: 768px) {
+            .catalog-header { height: 60vh; min-height: 350px; }
+            .catalog-header h1 { font-size: 2.8rem !important; }
+            .catalog-header p { font-size: 1rem; }
+        }
+        @media (max-width: 576px) {
+            .catalog-header { height: 55vh; min-height: 300px; }
+            .catalog-header h1 { font-size: 2.2rem !important; }
+            .catalog-header p { font-size: 0.95rem; }
+        }
+        @media (max-width: 480px) {
+            .catalog-header { height: 50vh; min-height: 250px; }
+            .catalog-header h1 { font-size: 1.8rem !important; }
+            .catalog-header p { font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="id.html" class="logo"><img src="logo nohyoghi1.png" alt="Nohyoghi Logo" class="logo-img">NOHYOGHI</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="id.html">Beranda</a>
+                <a href="id-catalog.html" class="active">Katalog</a>
+                <a href="id-articles.html">Artikel</a>
+                <a href="id-our-story.html">Cerita Kami</a>
+                <a href="https://wa.me/6282324891083" target="_blank">Kontak</a>
+            </nav>
+            <div class="lang-switcher">
+                <select id="lang-selector-catalog" aria-label="Pilih Bahasa">
+                    <option value="en">EN</option>
+                    <option value="id" selected>ID</option>
+                    <option value="de">DE</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="catalog-header">
+        <div class="container">
+            <h1>Koleksi Kami</h1>
+            <p>Infusi Botani Premium</p>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="product-grid">
+                <!-- Maroon Variant -->
+                <div class="product-card card-maroon">
+                    <div class="product-image">
+                        <img src="nohyoghi merah sp.jpg" alt="Nohyoghi Gula Merah Bubuk Instan">
+                        <div class="product-specs">
+                            <div class="spec-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Produk</span>
+                                    <span>Gula Merah Bubuk Instan</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Kapasitas</span>
+                                    <span>25 Metrik Ton / Bulan</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Umur Simpan</span>
+                                    <span>2 Tahun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gula Merah Bubuk Instan</h3>
+                        <p class="product-variant">Varian Merah Marun</p>
+                        <p class="product-desc">Gula merah bubuk instan premium dengan kapasitas produksi 25 metrik ton/bulan.</p>
+                    </div>
+                </div>
+                <!-- Green Variant -->
+                <div class="product-card card-green">
+                    <div class="product-image">
+                        <img src="nohyoghi ijo sp.png" alt="Nohyoghi Minuman Botani Serbuk Instan">
+                        <div class="product-specs">
+                            <div class="spec-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Produk</span>
+                                    <span>Minuman Botani Bubuk Instan</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Bahan Utama</span>
+                                    <span>Jahe, Kunyit, Serai</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Kapasitas</span>
+                                    <span>1 Metrik Ton / Bulan</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Kemasan</span>
+                                    <span>8 Sachet x 3g / Kotak (24g)</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Umur Simpan</span>
+                                    <span>2 Tahun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Minuman Botani Bubuk Instan</h3>
+                        <p class="product-variant">Varian Hijau</p>
+                        <p class="product-desc">Campuran botani instan jahe, kunyit & serai. 8 sachet x 3g per kotak.</p>
+                    </div>
+                </div>
+                <!-- Blue Variant -->
+                <div class="product-card card-blue">
+                    <div class="product-image">
+                        <img src="nohyoghi biru sp.jpg" alt="Nohyoghi Minuman Botani Irisan Tradisional">
+                        <div class="product-specs">
+                            <div class="spec-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Produk</span>
+                                    <span>Minuman Botani Irisan Tradisional</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Bahan Utama</span>
+                                    <span>Jahe, Kunyit, Serai, Lemon</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Kapasitas</span>
+                                    <span>1 Metrik Ton / Bulan</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Kemasan</span>
+                                    <span>8 Sachet x 3g / Kotak (24g)</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Umur Simpan</span>
+                                    <span>2 Tahun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Minuman Botani Irisan Tradisional</h3>
+                        <p class="product-variant">Varian Biru</p>
+                        <p class="product-desc">Campuran botani irisan tradisional jahe, kunyit, serai & lemon. 8 sachet x 3g per kotak.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="id.html" class="logo" style="color:white; font-size: 1.2rem;"><img src="logo nohyoghi1.png" alt="Nohyoghi Logo" class="logo-img">NOHYOGHI</a>
+            <div class="footer-links">
+                <a href="id-our-story.html">Tentang Kami</a>
+                <a href="id-catalog.html">Produk</a>
+                <a href="https://wa.me/6282324891083" target="_blank">Kontak</a>
+                <a href="#">Kebijakan Privasi</a>
+            </div>
+            <div class="footer-social" style="margin-top: 1.5rem; display: flex; justify-content: center; gap: 1.5rem;">
+                <a href="#" style="color: white; font-size: 1.5rem; transition: color 0.3s ease;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" style="color: white; font-size: 1.5rem; transition: color 0.3s ease;"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Nohyoghi Botanical Teas. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script>
+        // Custom Language Switcher for Catalog
+        const catLangSelector = document.getElementById('lang-selector-catalog');
+        if (catLangSelector) {
+            catLangSelector.addEventListener('change', (e) => {
+                const selectedLang = e.target.value;
+                let targetUrl = 'catalog.html';
+                
+                if (selectedLang === 'id') {
+                    targetUrl = 'id-catalog.html';
+                } else if (selectedLang === 'de') {
+                    targetUrl = 'de-catalog.html';
+                }
+                
+                window.location.href = targetUrl;
+            });
+        }
+    </script>
+</body>
+</html>
+

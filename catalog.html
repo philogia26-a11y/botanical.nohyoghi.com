@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logo nohyoghi.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog | Nohyoghi Botanical Teas</title>
+    
+    <!-- SEO & Hreflang -->
+    <meta name="description" content="Explore our premium collection of Nohyoghi Botanical Teas. Green, Blue, and Maroon variants.">
+    <link rel="alternate" hreflang="en" href="catalog.html" />
+    <link rel="alternate" hreflang="id" href="id-catalog.html" />
+    <link rel="alternate" hreflang="de" href="de-catalog.html" />
+    <link rel="canonical" href="catalog.html" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* Catalog Specific Styles */
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('nohyoghi2.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--color-white);
+            overflow-x: hidden;
+        }
+        .catalog-header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: transparent;
+            overflow: hidden;
+        }
+        .catalog-header h1 {
+            font-size: 5.5rem;
+            font-family: var(--font-heading);
+            text-transform: uppercase;
+            margin: 0;
+            line-height: 1.1;
+        }
+        .catalog-header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .products {
+            background: transparent;
+            padding-bottom: var(--spacing-xl);
+        }
+        .product-card {
+            background: rgba(26, 31, 36, 0.7) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(198, 162, 90, 0.3) !important;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        footer {
+            background-color: #0B0D0F !important;
+            position: relative;
+            z-index: 10;
+        }
+        @media (max-width: 768px) {
+            .catalog-header { height: 60vh; min-height: 350px; }
+            .catalog-header h1 { font-size: 2.8rem !important; }
+            .catalog-header p { font-size: 1rem; }
+        }
+        @media (max-width: 576px) {
+            .catalog-header { height: 55vh; min-height: 300px; }
+            .catalog-header h1 { font-size: 2.2rem !important; }
+            .catalog-header p { font-size: 0.95rem; }
+        }
+        @media (max-width: 480px) {
+            .catalog-header { height: 50vh; min-height: 250px; }
+            .catalog-header h1 { font-size: 1.8rem !important; }
+            .catalog-header p { font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="logo nohyoghi1.png" alt="Nohyoghi Logo" class="logo-img">NOHYOGHI</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="catalog.html" class="active">Catalog</a>
+                <a href="articles.html">Articles</a>
+                <a href="our-story.html">Our Story</a>
+                <a href="https://wa.me/6282324891083" target="_blank">Contact</a>
+            </nav>
+            <div class="lang-switcher">
+                <select id="lang-selector-catalog" aria-label="Language Selector">
+                    <option value="en" selected>EN</option>
+                    <option value="id">ID</option>
+                    <option value="de">DE</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="catalog-header">
+        <div class="container">
+            <h1>Our Collection</h1>
+            <p>Premium Botanical Infusions</p>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="product-grid">
+                <!-- Maroon Variant -->
+                <div class="product-card card-maroon">
+                    <div class="product-image">
+                        <img src="nohyoghi merah sp.jpg" alt="Nohyoghi Instant Brown Sugar Powder">
+                         <div class="product-specs">
+                            <div class="spec-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Product</span>
+                                    <span>Instant Brown Sugar Powder</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Production</span>
+                                    <span>25 Metric Tons / Month</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Shelf Life</span>
+                                    <span>2 Years</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Instant Brown Sugar Powder</h3>
+                        <p class="product-variant">Maroon Variant</p>
+                        <p class="product-desc">Premium instant brown sugar powder with 25 MT/month production capacity.</p>
+                    </div>
+                </div>
+                <!-- Green Variant -->
+                <div class="product-card card-green">
+                    <div class="product-image">
+                        <img src="nohyoghi ijo sp.png" alt="Nohyoghi Instant Powder Botanical Drink">
+                        <div class="product-specs">
+                            <div class="spec-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Product</span>
+                                    <span>Instant Powder Botanical Drink</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Ingredients</span>
+                                    <span>Ginger, Turmeric, Lemongrass</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Production</span>
+                                    <span>1 Metric Ton / Month</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Packaging</span>
+                                    <span>8 Sachets x 3g / Box (24g)</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Shelf Life</span>
+                                    <span>2 Years</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Instant Powder Botanical Drink</h3>
+                        <p class="product-variant">Green Variant</p>
+                        <p class="product-desc">Ginger, turmeric & lemongrass instant botanical blend. 8 sachets x 3g per box.</p>
+                    </div>
+                </div>
+                <!-- Blue Variant -->
+                <div class="product-card card-blue">
+                    <div class="product-image">
+                        <img src="nohyoghi biru sp.jpg" alt="Nohyoghi Traditional Sliced Botanical Drink">
+                         <div class="product-specs">
+                            <div class="spec-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Product</span>
+                                    <span>Traditional Sliced Botanical Drink</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Ingredients</span>
+                                    <span>Ginger, Turmeric, Lemongrass, Lemon</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Production</span>
+                                    <span>1 Metric Ton / Month</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Packaging</span>
+                                    <span>8 Sachets x 3g / Box (24g)</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Shelf Life</span>
+                                    <span>2 Years</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Traditional Sliced Botanical Drink</h3>
+                        <p class="product-variant">Blue Variant</p>
+                        <p class="product-desc">Ginger, turmeric, lemongrass & lemon traditional sliced botanical blend. 8 sachets x 3g per box.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="index.html" class="logo" style="color:white; font-size: 1.2rem;"><img src="logo nohyoghi1.png" alt="Nohyoghi Logo" class="logo-img">NOHYOGHI</a>
+            <div class="footer-links">
+                <a href="our-story.html">About</a>
+                <a href="catalog.html">Products</a>
+                <a href="https://wa.me/6282324891083" target="_blank">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-social" style="margin-top: 1.5rem; display: flex; justify-content: center; gap: 1.5rem;">
+                <a href="#" style="color: white; font-size: 1.5rem; transition: color 0.3s ease;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" style="color: white; font-size: 1.5rem; transition: color 0.3s ease;"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Nohyoghi Botanical Teas. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script>
+        // Custom Language Switcher for Catalog
+        const catLangSelector = document.getElementById('lang-selector-catalog');
+        if (catLangSelector) {
+            catLangSelector.addEventListener('change', (e) => {
+                const selectedLang = e.target.value;
+                let targetUrl = 'catalog.html';
+                
+                if (selectedLang === 'id') {
+                    targetUrl = 'id-catalog.html';
+                } else if (selectedLang === 'de') {
+                    targetUrl = 'de-catalog.html';
+                }
+                
+                window.location.href = targetUrl;
+            });
+        }
+    </script>
+</body>
+</html>
+
